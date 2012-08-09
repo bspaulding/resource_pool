@@ -10,6 +10,9 @@ class ResourcePool
   def close
   end
 
+  def closeNow
+  end
+
   def acquire
   end
 
@@ -20,5 +23,8 @@ class ResourcePool
   end
 
   def remove
+  end
+
+  def removeNow
   end
 end
