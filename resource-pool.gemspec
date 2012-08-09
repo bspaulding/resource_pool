@@ -14,4 +14,6 @@ Gem::Specification.new do |gem|
   gem.name          = "resource-pool"
   gem.require_paths = ["lib"]
   gem.version       = Resource::Pool::VERSION
+
+  gem.add_development_dependency "rake"
 end
