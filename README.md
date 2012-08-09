@@ -1,4 +1,4 @@
-# Resource::Pool
+# ResourcePool
 
 TODO: Write a gem description
 
