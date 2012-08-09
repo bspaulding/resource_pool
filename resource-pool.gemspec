@@ -1,5 +1,5 @@
 # -*- encoding: utf-8 -*-
-require File.expand_path('../lib/resource-pool/version', __FILE__)
+require File.expand_path('../lib/resource_pool/version', __FILE__)
 
 Gem::Specification.new do |gem|
   gem.authors       = ["Bradley Spaulding"]
@@ -11,9 +11,9 @@ Gem::Specification.new do |gem|
   gem.files         = `git ls-files`.split($\)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
-  gem.name          = "resource-pool"
+  gem.name          = "resource_pool"
   gem.require_paths = ["lib"]
-  gem.version       = Resource::Pool::VERSION
+  gem.version       = ResourcePool::VERSION
 
   gem.add_development_dependency "rake"
 end
